@@ -1,0 +1,38 @@
+/*Seletor de Tag: Selecionar todas as tags desse tipo*/
+/*h1{
+    color:blue;
+    font-size: 24px;
+}
+
+p{
+    color: black;
+}
+/* Seletor de Classe: selecionar todos os elementos que possuem um atributo chamado class. Usamos um ponto (.) */
+.destaque {
+    color: red
+}
+
+/*Seletor de id: Seleciona um elemento único que possui um atributo chamado id. Usamos a hash #*/
+#cabecalho {
+    background-color: rgb(red, green, blue);
+}
+
+/*Seletor de ID para o título*/
+#titulo-principal {
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+}
+
+/*Seletor de Classe para os parágrafos comuns*/
+.texto-comum {
+    font-size: 18px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Seletor de Classe para os parágrafos em destaque*/
+.destaque {
+    color: red;
+    background-color: yellow;
+}

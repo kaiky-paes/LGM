@@ -1,0 +1,66 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Forno e Código</title>
+    <link rel="icon" type="image/x-icon" href="../images/pizza-icon.png">
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
+    <header>
+        <img src="../images/logo.png">
+        <div>
+            <h1>Forno e Código</h1>
+            <h2>As melhores pizzas da região.</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a id="cart" href="carrinho.html"><img src=../images/carrinho.png></a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <form action="endereco.html">
+                <h3>Cadastre-se</h3>
+
+                <label for="nome">Nome*</label>
+                <input id="nome" type="text" placeholder="Nome Sobrenome" required>
+
+                <label for="telefone">Telefone*</label>
+                <input id="telefone" type="tel" maxlength="11" placeholder="(11) 99999-9999" required>
+
+                <label for="email">E-mail*</label>
+                <input id="email" type="email" placeholder="exemplo@email.com" required>
+
+                <label for="cpf">CPF</label>
+                <input id="cpf" type="text" maxlength="11" placeholder="000.000.000-00">
+
+                <label for="senha">Senha*</label>
+                <input id="senha" type="password" minlength="8" placeholder="•••••••••" required>
+
+                <div id="div-termos">
+                    <input type="checkbox" id="termos" name="termos" required>
+                    <label for="termos">Li e concordo com os <a href="termos.html">Termos e Condições de Uso</a> e com a
+                        <a href="privacidade.html">Política de Privacidade</a>.</label>
+                </div>
+                <input value="Continuar" type="submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <span>(11) 91234-5678 | contato@fornoecodigo.com</span>
+        </div>
+        <p>&copy; 2026 Pizzaria Forno e Código. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

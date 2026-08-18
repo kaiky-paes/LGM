@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+body {
+    margin: 0px;
+    background-image: url('images/hollow-knight-lifeblood.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #151e21;
+    color: white;
+}
+
+h1 {
+    box-sizing: border-box;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    max-width: 1400px;
+    font-family: 'Cinzel', serif;
+    font-size: 45px;
+    text-align: center;
+    background-color: #000000;
+}
+
+h2 {
+    display: flex;
+    margin: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #097887;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 1px;
+    margin-top: 30px;
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+}
+
+hr {
+    margin-left: 0;
+    margin-top: 1px;
+    max-width: 1090px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img{
+    width: 300px;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin: 40px auto;
+    margin-top: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #181818f9;
+    background-size: 800px;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.texto {
+    flex: 2;
+}
+
+.texto2 {
+    max-width: 1120px;
+}
+
+.midia {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.midia2 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.importante {
+    color: red;
+    font-weight: bold;
+}
+
+.destaque {
+    background-color: yellow;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    padding: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #000000;
+}
+
+#greenpath {
+    color: green;
+    font-weight: bold;
+}
+
+#grimm {
+    color: #9f0606;
+    font-weight: bold;
+}
+
+#interacao:hover {
+    color: #e0ffff;
+    text-shadow: 0px 0px 10px #e0ffff;
+    cursor: pointer;
+}

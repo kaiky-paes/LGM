@@ -1,0 +1,67 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Forno e Código</title>
+    <link rel="icon" type="image/x-icon" href="../images/pizza-icon.png">
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
+    <header>
+        <img src="../images/logo.png">
+        <div>
+            <h1>Forno e Código</h1>
+            <h2>As melhores pizzas da região.</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a id="cart" href="carrinho.html"><img src=../images/carrinho.png></a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <form action="home.html">
+                <h3>Endereço</h3>
+
+                <label for="cep">CEP</label>
+                <input id="cep" type="text" maxlength="8" placeholder="00000-000" required>
+
+                <label for="rua">Rua</label>
+                <input id="rua" type="text" placeholder="Rua, Avenida..." readonly>
+
+                <div class="duplo">
+                    <div class="grupo">
+                        <label for="numero">N°</label>
+                        <input id="numero" type="text" maxlength="5" placeholder="1234" required>
+                    </div>
+
+                    <div class="grupo">
+                        <label for="complemento">Complemento</label>
+                        <input id="complemento" type="text" placeholder="Bloco, Apto...">
+                    </div>
+                </div>
+
+                <label for="bairro">Bairro</label>
+                <input id="bairro" type="text" placeholder="Bairro" readonly>
+
+                <input value="Cadastrar" type="submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <span>(11) 91234-5678 | contato@fornoecodigo.com</span>
+        </div>
+        <p>&copy; 2026 Pizzaria Forno e Código. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

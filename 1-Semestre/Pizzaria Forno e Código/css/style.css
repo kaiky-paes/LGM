@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    font-family: "Figtree", sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #a40909;
+}
+
+header {
+    max-height: 121px;
+    height: 300px;
+    padding: 11px 0;
+    display: flex;
+    align-items: center;
+    background-color: #ed6c0e;
+}
+
+header img {
+    margin-left: 90px;
+    width: 150px;
+}
+
+h1 {
+    margin-bottom: -6px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 45px;
+    line-height: normal;
+    text-shadow: 5px 5px 0px #F3982C;
+}
+
+h2 {
+    font-size: 31px;
+    font-style: italic;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #000000;
+}
+
+header div {
+    margin-left: 40px;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: 109px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 49px;
+}
+
+header a {
+    text-decoration: none;
+    padding: 15px 40px;
+    font-family: "Figtree", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #05632d;
+    border: 3px solid #000000;
+    border-radius: 24px;
+    color: #FFFFFF;
+}
+
+#cart {
+    padding: 0;
+    width: 120px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#cart img {
+    width: 40px;
+    height: auto;
+    display: block;
+    margin: 0;
+    filter: brightness(0) invert(1);
+}
+
+header a img {
+    width: 40px;
+}
+
+header a:hover {
+    background-color: #078a3e;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+header a:focus {
+    background-color: #078a3e;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+main {
+    margin-left: 108px;
+    margin-right: 108px;
+    padding: 42px 0;
+    background: linear-gradient(to top, #731919, #e52b2b);
+    border-radius: 40px;
+}
+
+main ul {
+    margin-top: 70px;
+    list-style-type: none;
+}
+
+main li {
+    font-size: 25px;
+    text-align: left;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #000000;
+}
+
+.group {
+    padding: 0 150px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.group img {
+    margin-top: 40px;
+    width: 300px;
+}
+
+h3 {
+    margin: 21px auto 41px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 40px;
+    line-height: normal;
+    background-color: #000000;
+    padding: 4px 0px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.promo-pizza {
+    box-sizing: 500px;
+    width: 525px;
+    min-height: 238px;
+    margin: 6px;
+    padding: 0 1px;
+    background-color: #a40909;
+    border-radius: 28px;
+    border: 1px solid #000000;
+}
+
+h4 {
+    margin: 0 auto;
+    font-size: 30px;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #000000;
+}
+
+.flex p {
+    margin: auto;
+    margin-right: 0px;
+    font-size: 30px;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #000000;
+}
+
+.pizza {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pizza img {
+    margin-left: 2px;
+    margin-right: 0px;
+    width: 291px;
+}
+
+.tachado {
+    text-decoration: line-through;
+    text-decoration-color: #FFFFFF;
+}
+
+footer {
+    padding: 9.5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ed6c0e;
+}
+
+footer span {
+    font-size: 16.5px;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0.15px;
+}
+
+footer p {
+    font-size: 14px;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0.125px;
+}
