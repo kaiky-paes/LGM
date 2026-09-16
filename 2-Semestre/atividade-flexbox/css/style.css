@@ -41,6 +41,9 @@ p {
 }
 
 .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 24px;
     padding: 24px;
     border-radius: 12px;
@@ -59,13 +62,22 @@ p {
 
 .filtros {
     margin-bottom: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .cursos {
-    /* Transforme em flex container. */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .curso {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1 1 300px;
     min-width: 0;
     padding: 18px;
     border: 1px solid #dbe3ef;
@@ -75,6 +87,9 @@ p {
 }
 
 .icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 52px;
     height: 52px;
     border-radius: 10px;
@@ -85,6 +100,7 @@ p {
 }
 
 .dados-curso {
+    flex:auto;
     min-width: 0;
 }
 
@@ -100,10 +116,27 @@ p {
 }
 
 .nivel {
+    flex-shrink: 0;
     padding: 6px 9px;
     border-radius: 999px;
     color: #1e3a8a;
     font-size: 0.72rem;
     font-weight: 700;
     background: #dbeafe;
+}
+
+@media (max-width: 640px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .cursos {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .nivel {
+        align-self: auto;
+    }
 }
