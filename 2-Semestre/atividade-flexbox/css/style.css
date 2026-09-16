@@ -61,10 +61,10 @@ p {
 }
 
 .filtros {
-    margin-bottom: 18px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    margin-bottom: 18px;
 }
 
 .cursos {
@@ -100,7 +100,7 @@ p {
 }
 
 .dados-curso {
-    flex:auto;
+    flex: 1;
     min-width: 0;
 }
 
@@ -128,15 +128,15 @@ p {
 @media (max-width: 640px) {
     .cabecalho {
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
     }
 
-    .cursos {
+    .curso {
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
     }
 
     .nivel {
-        align-self: auto;
+        align-self: flex-start;
     }
 }
