@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    font: 16px 1.5 system-ui, sans-serif;
+    color: #172554;
+    background-color: #f1f5f9;
+}
+
+main {
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    gap: 32px;
+    background-color: #dbeafe;
+    outline: 1px dashed #64748b;
+}
+
+.item {
+    padding: 16px;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
